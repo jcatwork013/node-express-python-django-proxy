@@ -1,0 +1,23 @@
+{
+  "name": "my-node-sqlite-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "create-tables": "node src/scripts/createTables.js",
+    "seed-data": "node src/scripts/seedData.js",
+    "create-and-seed": "npm run create-tables && npm run seed-data",
+    "server": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "sequelize": "^6.35.2",
+    "shelljs": "^0.8.5",
+    "sqlite3": "^5.1.7-rc.0"
+  }
+}
