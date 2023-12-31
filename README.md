@@ -10,6 +10,8 @@ Make sure you have the following software installed on your machine:
 
 - [Node.js](https://nodejs.org/)
 - [npm](https://www.npmjs.com/)
+- [python]
+- [django]
 
 ## Installation
 

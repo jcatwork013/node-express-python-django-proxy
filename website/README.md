@@ -31,5 +31,36 @@ python proxy.py
 
 - The proxy server will now be running on port 8001.
 
-* Note: Make sure that your Node.js Express server is running on port 3001 as the proxy server forwards data from this port.
 
+### Run sample website [PORT=8000]
+
+First, create the virtual environment
+```bash
+python3 -m venv django-env
+```
+
+Then, use this environment
+```bash
+source django-env/bin/activate
+```
+
+Next, install django
+```bash
+python -m pip install django
+```
+
+Next, install requests
+```bash
+python -m pip install requests
+```
+
+Start
+```bash
+python manage.py runserver
+```
+
+Open browser and access the URL:
+```bash
+http://localhost:8000/sample/user-list/
+http://localhost:8000/sample/product-list/
+```
