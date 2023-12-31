@@ -2,7 +2,7 @@
 
 ## Overview
 
-Briefly describe your project, including its purpose, key features, and any other relevant information.
+Sample website with Node(Express) and Python(Django)
 
 ## Prerequisites
 
